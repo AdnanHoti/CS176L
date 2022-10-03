@@ -1,12 +1,9 @@
 /**
- * 
- */
-/**
  * @author adnanhoti
+ * CS176L-01
  *
  */
 
-//Java program to simulate the working of a Microwave
 
 //Microwave class
 

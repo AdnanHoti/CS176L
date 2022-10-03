@@ -8,7 +8,7 @@ public class MicrowaveTester {
 
 			Microwave microwave = new Microwave();
 
-			
+			//Increases the time to 60 seconds
 
 			System.out.println(microwave.time());
 			
@@ -25,14 +25,7 @@ public class MicrowaveTester {
 			//Reset the Microwave (time 0, power level 1).
 
 			System.out.println(microwave.reset());
-
-
-		
-			
-
-
-		
-			
+	
 
 			//end of program
 		//System.out.println("Cooking for "+time+" seconds at level "+ Power);
