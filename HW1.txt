@@ -1,0 +1,35 @@
+package edu.monmouth.grade;
+
+public class ProblemSet1 {
+
+	public static void main(String[] args) {
+		
+		//Create a Grade object using the default constructor
+		Grade grade = new Grade();
+		
+		//Using the getGradeLetter method, print out the letter grade for this object-explain
+		//why this is the value
+		
+		System.out.println(grade.getGradeLetter());
+		
+		//Using the setLetterGrade method, set the letter grade for this object to another
+		//value
+		grade.setGradeLetter('A');
+		
+		//Again, print out the letter grade for this object-explain why this is the value
+		System.out.println(grade.getGradeLetter());
+		
+		//Create another Grade object using the constructor that takes a char
+		Grade grade2 = new Grade('B');
+		
+		//Print out the letter grade for this object
+		System.out.println(grade2.getGradeLetter());
+		
+		//Change this object’s gradeLetter value to ‘C’
+		grade2.setGradeLetter('C');
+		
+		//Print out the letter grade for this object
+		System.out.println(grade2.getGradeLetter());
+	}
+
+}
